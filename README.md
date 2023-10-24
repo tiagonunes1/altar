@@ -1,1 +1,1 @@
-# altar
+# altar-challenge

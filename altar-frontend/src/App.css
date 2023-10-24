@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px); 
+  grid-gap: 2px; 
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Cell {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.Code {
+  margin-top: 20px;
+}
+
+.Code h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.BiasInput {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-left: 10px;
+}
